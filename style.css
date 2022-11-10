@@ -1,0 +1,136 @@
+* {
+
+    box-sizing: border-box;
+}
+
+html {
+    border-inline: 0px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-transform: capitalize;
+    background-color: yellow;
+}
+
+header {
+    margin: 10px 5px;
+    background-color: blueviolet;
+    border: 4px solid black;
+    
+
+}
+
+header:hover {
+    color: yellow;
+    transition: 0.8s;
+}
+
+#table {
+    display: block;
+    margin: top 20px;
+    border: 2px solid black;
+    padding: 5px 2px;
+    background-color: #fff;
+}
+.basic > td , .basic > button
+{
+    background-color: white;
+}
+th,
+td {
+    border: 1px solid black;
+   height: max-content;
+    background-color: blueviolet;
+    color: yellow;
+
+}
+
+td:hover {
+    cursor: auto;
+}
+
+tr:hover {
+    background-color: gray;
+    opacity: 0.8;
+
+}
+
+th:hover {
+    background-color: blueviolet;
+    opacity: 1;
+}
+
+.btnDelete {
+
+    padding-top: 50%;
+    padding-bottom: 50%;
+    border: solid 2px black;
+    background-color: blueviolet;
+    color: yellow;
+
+}
+
+.btnDelete:hover {
+    cursor: pointer;
+    transition: 0.5;
+    background-color: #333;
+    color: whitesmoke;  
+    opacity: 1;
+
+}
+
+footer {
+    padding: 1rem;
+    padding-bottom: 3.5rem;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: 4px solid black;
+    height: 1rem;
+    text-align: center;
+
+}
+
+footer a {
+    color: yellow;
+    text-decoration: none;
+}
+
+#elementAdd {
+    display: block;
+    margin: 20px 0px;
+    border: 2px solid black;
+    padding: 5px 2px;
+    background-color: blueviolet;
+}
+
+.new {
+    margin: 5px;
+}
+
+#productAddBtn
+{
+    display: inline-block;
+    background-color: #333;
+    color: whitesmoke;  
+    border: 1px solid #666;
+    font-weight: bold;
+    padding: 0.6rem;
+    transition: all 0.4s; 
+}
+#productAddBtn:hover
+{
+    background-color: #fff;
+    color: #333;
+}
+.selected-Row > td , .selected-Row > button
+{
+    background-color: red !important;
+    color: #fff;
+    
+ 
+}
