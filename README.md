@@ -8,7 +8,7 @@
     <ul>
       <li>Using the Fetch API with async/await create product table</li>
       <li>Delete table row with delete array element.</li>
-      <li>Add table row with add array element.</li>
+      <li>Add table row with add array element.(<b>Inclusion validations implementation!</b>)</li>
       <li>Select table rows.</li>
     </ul>
   </li>
